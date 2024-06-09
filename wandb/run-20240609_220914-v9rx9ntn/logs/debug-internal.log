@@ -1,0 +1,216 @@
+2024-06-09 22:09:14,969 INFO    StreamThr :19393 [internal.py:wandb_internal():85] W&B internal server running at pid: 19393, started at: 2024-06-09 22:09:14.968167
+2024-06-09 22:09:14,972 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: status
+2024-06-09 22:09:14,972 INFO    WriterThread:19393 [datastore.py:open_for_write():87] open: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/run-v9rx9ntn.wandb
+2024-06-09 22:09:14,973 DEBUG   SenderThread:19393 [sender.py:send():378] send: header
+2024-06-09 22:09:14,978 DEBUG   SenderThread:19393 [sender.py:send():378] send: run
+2024-06-09 22:09:15,185 INFO    SenderThread:19393 [dir_watcher.py:__init__():211] watching files in: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files
+2024-06-09 22:09:15,186 INFO    SenderThread:19393 [sender.py:_start_run_threads():1123] run started: v9rx9ntn with start time 1717970954.967983
+2024-06-09 22:09:15,195 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: check_version
+2024-06-09 22:09:15,195 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: check_version
+2024-06-09 22:09:15,275 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: run_start
+2024-06-09 22:09:15,276 DEBUG   HandlerThread:19393 [system_info.py:__init__():26] System info init
+2024-06-09 22:09:15,276 DEBUG   HandlerThread:19393 [system_info.py:__init__():41] System info init done
+2024-06-09 22:09:15,276 INFO    HandlerThread:19393 [system_monitor.py:start():194] Starting system monitor
+2024-06-09 22:09:15,276 INFO    SystemMonitor:19393 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-09 22:09:15,276 INFO    HandlerThread:19393 [system_monitor.py:probe():214] Collecting system info
+2024-06-09 22:09:15,277 INFO    SystemMonitor:19393 [interfaces.py:start():188] Started cpu monitoring
+2024-06-09 22:09:15,278 INFO    SystemMonitor:19393 [interfaces.py:start():188] Started disk monitoring
+2024-06-09 22:09:15,279 INFO    SystemMonitor:19393 [interfaces.py:start():188] Started memory monitoring
+2024-06-09 22:09:15,280 INFO    SystemMonitor:19393 [interfaces.py:start():188] Started network monitoring
+2024-06-09 22:09:15,281 DEBUG   HandlerThread:19393 [system_info.py:probe():150] Probing system
+2024-06-09 22:09:15,282 DEBUG   HandlerThread:19393 [system_info.py:_probe_git():135] Probing git
+2024-06-09 22:09:15,292 DEBUG   HandlerThread:19393 [system_info.py:_probe_git():143] Probing git done
+2024-06-09 22:09:15,292 DEBUG   HandlerThread:19393 [system_info.py:probe():198] Probing system done
+2024-06-09 22:09:15,292 DEBUG   HandlerThread:19393 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-1021-azure-x86_64-with-glibc2.31', 'python': '3.10.13', 'heartbeatAt': '2024-06-09T22:09:15.281563', 'startedAt': '2024-06-09T22:09:14.958708', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/ORTMLProd/practico-4-ChristianVera49', 'commit': '336deb11897d6633dec669c4518057eac32f3438'}, 'email': 'chv.facu@gmail.com', 'root': '/workspaces/practico-4-ChristianVera49', 'host': 'codespaces-a6cca9', 'username': 'codespace', 'executable': '/home/codespace/.python/current/bin/python3', 'cpu_count': 1, 'cpu_count_logical': 2, 'cpu_freq': {'current': 2582.06, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2574.555, 'min': 0.0, 'max': 0.0}, {'current': 2589.565, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 31.32598876953125, 'used': 12.914741516113281}}, 'memory': {'total': 7.74371337890625}}
+2024-06-09 22:09:15,293 INFO    HandlerThread:19393 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-09 22:09:15,293 INFO    HandlerThread:19393 [system_monitor.py:probe():227] Publishing system info
+2024-06-09 22:09:15,293 INFO    HandlerThread:19393 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-09 22:09:15,294 DEBUG   SenderThread:19393 [sender.py:send():378] send: files
+2024-06-09 22:09:15,294 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-06-09 22:09:15,425 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-09 22:09:15,426 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: python_packages
+2024-06-09 22:09:15,468 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-09 22:09:15,468 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-09 22:09:15,469 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-09 22:09:15,469 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: stop_status
+2024-06-09 22:09:15,469 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-09 22:09:15,471 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-09 22:09:15,472 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-09 22:09:15,473 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-09 22:09:15,473 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-09 22:09:15,474 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-09 22:09:15,474 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-09 22:09:15,475 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-09 22:09:15,479 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-09 22:09:15,551 INFO    wandb-upload_0:19393 [upload_job.py:push():130] Uploaded file /tmp/tmpq1a0pl3rwandb/kds85ww0-wandb-metadata.json
+2024-06-09 22:09:15,566 DEBUG   SenderThread:19393 [sender.py:send():378] send: telemetry
+2024-06-09 22:09:15,567 DEBUG   SenderThread:19393 [sender.py:send():378] send: history
+2024-06-09 22:09:15,567 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: summary_record
+2024-06-09 22:09:15,567 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,568 DEBUG   SenderThread:19393 [sender.py:send():378] send: history
+2024-06-09 22:09:15,568 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: summary_record
+2024-06-09 22:09:15,568 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,568 DEBUG   SenderThread:19393 [sender.py:send():378] send: history
+2024-06-09 22:09:15,569 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: summary_record
+2024-06-09 22:09:15,569 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,569 DEBUG   SenderThread:19393 [sender.py:send():378] send: history
+2024-06-09 22:09:15,570 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: summary_record
+2024-06-09 22:09:15,570 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,571 DEBUG   SenderThread:19393 [sender.py:send():378] send: history
+2024-06-09 22:09:15,571 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: summary_record
+2024-06-09 22:09:15,572 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,572 DEBUG   SenderThread:19393 [sender.py:send():378] send: history
+2024-06-09 22:09:15,572 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: summary_record
+2024-06-09 22:09:15,573 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,574 DEBUG   SenderThread:19393 [sender.py:send():378] send: history
+2024-06-09 22:09:15,574 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: summary_record
+2024-06-09 22:09:15,574 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,575 DEBUG   SenderThread:19393 [sender.py:send():378] send: history
+2024-06-09 22:09:15,575 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: summary_record
+2024-06-09 22:09:15,575 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,575 DEBUG   SenderThread:19393 [sender.py:send():378] send: history
+2024-06-09 22:09:15,576 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: summary_record
+2024-06-09 22:09:15,576 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,576 DEBUG   SenderThread:19393 [sender.py:send():378] send: history
+2024-06-09 22:09:15,576 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: summary_record
+2024-06-09 22:09:15,577 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,577 DEBUG   SenderThread:19393 [sender.py:send():378] send: history
+2024-06-09 22:09:15,577 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: summary_record
+2024-06-09 22:09:15,578 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,578 DEBUG   SenderThread:19393 [sender.py:send():378] send: alert
+2024-06-09 22:09:15,898 DEBUG   SenderThread:19393 [sender.py:send():378] send: telemetry
+2024-06-09 22:09:15,898 DEBUG   SenderThread:19393 [sender.py:send():378] send: exit
+2024-06-09 22:09:15,898 INFO    SenderThread:19393 [sender.py:send_exit():585] handling exit code: 0
+2024-06-09 22:09:15,898 INFO    SenderThread:19393 [sender.py:send_exit():587] handling runtime: 0
+2024-06-09 22:09:15,898 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,899 INFO    SenderThread:19393 [sender.py:send_exit():593] send defer
+2024-06-09 22:09:15,899 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:15,899 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-09 22:09:15,899 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:15,899 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-09 22:09:15,900 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 1
+2024-06-09 22:09:15,900 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:15,900 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-09 22:09:15,900 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:15,900 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-09 22:09:15,900 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 2
+2024-06-09 22:09:15,900 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:15,900 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-09 22:09:15,900 INFO    HandlerThread:19393 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-09 22:09:15,901 DEBUG   SystemMonitor:19393 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-09 22:09:15,901 INFO    HandlerThread:19393 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-09 22:09:15,901 DEBUG   SystemMonitor:19393 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-09 22:09:15,901 INFO    HandlerThread:19393 [interfaces.py:finish():200] Joined disk monitor
+2024-06-09 22:09:15,901 DEBUG   SystemMonitor:19393 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-09 22:09:15,901 INFO    HandlerThread:19393 [interfaces.py:finish():200] Joined memory monitor
+2024-06-09 22:09:15,902 INFO    HandlerThread:19393 [interfaces.py:finish():200] Joined network monitor
+2024-06-09 22:09:15,903 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:15,903 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-09 22:09:15,903 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 3
+2024-06-09 22:09:15,903 DEBUG   SenderThread:19393 [sender.py:send():378] send: stats
+2024-06-09 22:09:15,903 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:15,903 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-09 22:09:15,903 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:15,904 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-09 22:09:15,904 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 4
+2024-06-09 22:09:15,904 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:15,904 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-09 22:09:15,904 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:15,904 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-09 22:09:15,905 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 5
+2024-06-09 22:09:15,905 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:15,905 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-09 22:09:15,905 DEBUG   SenderThread:19393 [sender.py:send():378] send: summary
+2024-06-09 22:09:15,906 INFO    SenderThread:19393 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-09 22:09:15,906 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:15,906 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-09 22:09:15,906 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 6
+2024-06-09 22:09:15,906 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:15,906 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-09 22:09:15,907 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:15,907 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-09 22:09:15,910 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: status_report
+2024-06-09 22:09:15,997 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 7
+2024-06-09 22:09:15,997 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:15,997 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-09 22:09:15,997 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:15,997 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-09 22:09:16,187 INFO    Thread-36 :19393 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/config.yaml
+2024-06-09 22:09:16,187 INFO    Thread-36 :19393 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/output.log
+2024-06-09 22:09:16,187 INFO    Thread-36 :19393 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/wandb-metadata.json
+2024-06-09 22:09:16,188 INFO    Thread-36 :19393 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/wandb-summary.json
+2024-06-09 22:09:16,188 INFO    Thread-36 :19393 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/requirements.txt
+2024-06-09 22:09:16,432 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-09 22:09:17,571 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 8
+2024-06-09 22:09:17,571 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: poll_exit
+2024-06-09 22:09:17,571 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:17,572 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-09 22:09:17,572 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:17,572 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-09 22:09:17,572 INFO    SenderThread:19393 [job_builder.py:build():432] Attempting to build job artifact
+2024-06-09 22:09:17,572 INFO    SenderThread:19393 [job_builder.py:_get_source_type():565] is repo sourced job
+2024-06-09 22:09:17,573 INFO    SenderThread:19393 [job_builder.py:_get_program_relpath():583] run is notebook based run
+2024-06-09 22:09:17,573 WARNING SenderThread:19393 [job_builder.py:_log_if_verbose():267] Source type is set to 'repo' but some required information is missing from the environment. A job will not be created from this run. See https://docs.wandb.ai/guides/launch/create-job
+2024-06-09 22:09:17,573 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 9
+2024-06-09 22:09:17,573 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:17,573 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-09 22:09:17,573 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:17,573 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-09 22:09:17,573 INFO    SenderThread:19393 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-09 22:09:18,187 INFO    Thread-36 :19393 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/output.log
+2024-06-09 22:09:18,187 INFO    SenderThread:19393 [dir_watcher.py:finish():388] scan: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files
+2024-06-09 22:09:18,188 INFO    SenderThread:19393 [dir_watcher.py:finish():402] scan save: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/wandb-summary.json wandb-summary.json
+2024-06-09 22:09:18,188 INFO    SenderThread:19393 [dir_watcher.py:finish():402] scan save: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/wandb-metadata.json wandb-metadata.json
+2024-06-09 22:09:18,188 INFO    SenderThread:19393 [dir_watcher.py:finish():402] scan save: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/config.yaml config.yaml
+2024-06-09 22:09:18,190 INFO    SenderThread:19393 [dir_watcher.py:finish():402] scan save: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/requirements.txt requirements.txt
+2024-06-09 22:09:18,190 INFO    SenderThread:19393 [dir_watcher.py:finish():402] scan save: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/output.log output.log
+2024-06-09 22:09:18,191 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 10
+2024-06-09 22:09:18,192 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:18,193 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-09 22:09:18,193 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:18,193 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-09 22:09:18,193 INFO    SenderThread:19393 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-09 22:09:18,397 INFO    wandb-upload_0:19393 [upload_job.py:push():130] Uploaded file /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/wandb-summary.json
+2024-06-09 22:09:18,433 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-09 22:09:18,434 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: poll_exit
+2024-06-09 22:09:18,488 INFO    wandb-upload_3:19393 [upload_job.py:push():130] Uploaded file /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/output.log
+2024-06-09 22:09:18,489 INFO    wandb-upload_2:19393 [upload_job.py:push():130] Uploaded file /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/requirements.txt
+2024-06-09 22:09:18,492 INFO    wandb-upload_1:19393 [upload_job.py:push():130] Uploaded file /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/files/config.yaml
+2024-06-09 22:09:18,692 INFO    Thread-35 (_thread_body):19393 [sender.py:transition_state():613] send defer: 11
+2024-06-09 22:09:18,693 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:18,693 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-09 22:09:18,693 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:18,694 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-09 22:09:18,694 INFO    SenderThread:19393 [file_pusher.py:join():175] waiting for file pusher
+2024-06-09 22:09:18,694 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 12
+2024-06-09 22:09:18,694 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:18,694 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-09 22:09:18,695 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:18,695 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-09 22:09:18,695 INFO    SenderThread:19393 [file_stream.py:finish():601] file stream finish called
+2024-06-09 22:09:18,748 INFO    SenderThread:19393 [file_stream.py:finish():605] file stream finish is done
+2024-06-09 22:09:18,748 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 13
+2024-06-09 22:09:18,749 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:18,749 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-09 22:09:18,749 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:18,749 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-09 22:09:18,749 INFO    SenderThread:19393 [sender.py:transition_state():613] send defer: 14
+2024-06-09 22:09:18,749 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: defer
+2024-06-09 22:09:18,749 INFO    HandlerThread:19393 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-09 22:09:18,750 DEBUG   SenderThread:19393 [sender.py:send():378] send: final
+2024-06-09 22:09:18,750 DEBUG   SenderThread:19393 [sender.py:send():378] send: footer
+2024-06-09 22:09:18,750 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: defer
+2024-06-09 22:09:18,750 INFO    SenderThread:19393 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-09 22:09:18,751 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-09 22:09:18,751 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: poll_exit
+2024-06-09 22:09:18,751 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-09 22:09:18,752 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: server_info
+2024-06-09 22:09:18,752 DEBUG   SenderThread:19393 [sender.py:send_request():405] send_request: server_info
+2024-06-09 22:09:18,753 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-09 22:09:18,753 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-09 22:09:18,795 DEBUG   HandlerThread:19393 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-09 22:09:18,796 INFO    HandlerThread:19393 [handler.py:finish():882] shutting down handler
+2024-06-09 22:09:19,752 INFO    WriterThread:19393 [datastore.py:close():296] close: /workspaces/practico-4-ChristianVera49/wandb/run-20240609_220914-v9rx9ntn/run-v9rx9ntn.wandb
+2024-06-09 22:09:19,753 INFO    SenderThread:19393 [sender.py:finish():1545] shutting down sender
+2024-06-09 22:09:19,753 INFO    SenderThread:19393 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-09 22:09:19,753 INFO    SenderThread:19393 [file_pusher.py:join():175] waiting for file pusher

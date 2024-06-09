@@ -1,0 +1,49 @@
+{
+    "os": "Linux-6.5.0-1021-azure-x86_64-with-glibc2.31",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-06-09T21:40:41.052089",
+    "startedAt": "2024-06-09T21:40:39.846421",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/ORTMLProd/practico-4-ChristianVera49",
+        "commit": "336deb11897d6633dec669c4518057eac32f3438"
+    },
+    "email": "chv.facu@gmail.com",
+    "root": "/workspaces/practico-4-ChristianVera49",
+    "host": "codespaces-a6cca9",
+    "username": "codespace",
+    "executable": "/home/codespace/.python/current/bin/python3",
+    "cpu_count": 1,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 3243.0860000000002,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3243.28,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3242.892,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 31.32598876953125,
+            "used": 12.913330078125
+        }
+    },
+    "memory": {
+        "total": 7.74371337890625
+    }
+}
